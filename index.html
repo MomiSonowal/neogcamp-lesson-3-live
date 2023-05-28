@@ -34,25 +34,26 @@
     <h2>@container</h2>
 
     <h3>Fluid Container</h3>
-    <div>This is  a fluid container and this will go till end of the page</div>
+    <div class="container container-fluid">This is  a fluid container and this will go till end of the page</div>
 
 
-    <h3>fluid container</h3>
-    <div>This is a centered container and it will go till end of the page</div>
+    <h3>center container</h3>
+    <div class="container container-center">This is a centered container and it will go till end of the page</div>
 
     <hr>
 
     <h2>@Links</h2>
 
-    <a href="https://google.com">Primay Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="https://google.com">Primay Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr>
 
     <h2>@Lists</h2>
     <h3>Unordered List</h3>
+    <p>This list will not have the bullet</p>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item Two</li>
         <li>Item Three</li>
@@ -60,15 +61,15 @@
 
     <h3>Unordered inline List</h3>
 
-    <ul>
-        <li>Inline Item one</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
 
     <h3>Reverse Order List</h3>
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>Eggs</li>
         <li>Bread</li>
@@ -76,17 +77,17 @@
     <hr>
 
     <h2>@nav</h2>
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-item-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Products</p></a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Products</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -94,15 +95,11 @@
     <hr>
     <h2>@Header</h2>
 
-    <header>
-        <img src="images/hero.svg" alt="">
-        <h1>heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" alt="">
+        <h1 class="hero-heading">adarsh b alika the <span class="heading-inverted">web developer</span></h1>
     </header>
 
-    <header>
-        <img src="images/n.jpeg" alt="">
-        <h1>Hi!</h1>
-    </header>
 
     <hr>
 
